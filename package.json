@@ -1,0 +1,23 @@
+{
+  "name": "test-npm-mal-kfir",
+  "version": "1.0.0",
+  "description": "DONT DOWNLOAD IT. testing malicious postinstall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kfir-G/test-npm-mal-kfir.git",
+    "postinstall": "./postinstall.sh"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "kfir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kfir-G/test-npm-mal-kfir/issues"
+  },
+  "homepage": "https://github.com/Kfir-G/test-npm-mal-kfir#readme"
+}
